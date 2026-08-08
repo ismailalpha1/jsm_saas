@@ -1,13 +1,13 @@
 import { withSentryConfig } from "@sentry/nextjs";
 import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   /* config options here */
   typescript:{
     ignoreBuildErrors: true
-  },
-  eslint:{
-    ignoreDuringBuilds: true
+  // },
+  // eslint:{
+  //   ignoreDuringBuilds: true
   },
   images:{
     remotePatterns:[
