@@ -399,7 +399,7 @@ const CompanionComponent = ({
 
                 <span className="text-xs font-medium text-white/50">
                   Live transcript
-                </span>
+                </span> 
               </div>
 
               <span className="text-[10px] text-white/20">
