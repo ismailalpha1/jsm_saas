@@ -4,7 +4,7 @@ import { ArrowRight, Plus, Sparkles, WandSparkles } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="relative overflow-hidden bg-[#050507] py-24 text-white sm:py-32">
+    <section className="relative overflow-hidden bg-[#050507] py-24 text-white sm:py-32" >
       {/* Background Glows */}
       <div className="pointer-events-none absolute inset-0">
         {/* Main AI glow */}
@@ -27,7 +27,7 @@ const CTA = () => {
         />
       </div>
 
-      <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
+      <div className="relative mx-auto max-w-6xl px-6 lg:px-8" id="cta">
         {/* Main Card */}
         <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-[#0b0b10]/80 px-6 py-16 shadow-2xl shadow-black/40 backdrop-blur-2xl sm:px-12 sm:py-20 lg:px-20">
           {/* Inner glow */}
